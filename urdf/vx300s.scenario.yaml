@@ -1,0 +1,6 @@
+directives:
+- add_model:
+    name: vs300s
+    file: vx300s.urdf
+model_drivers:
+    vs300s: !InverseDynamicsDriver {}
